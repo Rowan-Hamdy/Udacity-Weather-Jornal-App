@@ -1,0 +1,87 @@
+body{
+     background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80');
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-family: -apple-system, BlinkMacSystemFont, sans-serif;  
+    
+    
+}
+
+.holder_headline{
+     color:#f0d43a ;
+     font-size: 50px;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    grid-template-columns:  height:100vh;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+
+}
+   
+
+.holder{
+  color: #36ad9f;
+}
+
+.entry{
+    background: light-blue;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+#entryHolder{
+ background-blend-mode: lighten;
+ color: white;
+}
+
+#feelings{
+    height: 60px;
+    width: 320px;
+    /*background:#22b2da;*/
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-color: #ffffff;;
+}
+
+
+
+
+input{
+    /*display:block;*/
+    height: 60px;
+    width: 320px;
+    /*background:#22b2da;*/
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-color: #ffffff;;
+}
+
+button{
+  width: 175px;
+  color: #f0d43a;
+  font-size: 26px;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: 2px 4px 5px #444;
+  text-align: center;
+  border: 2px solid black;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom:20px;
+  cursor: pointer;
+  border-color: #701e1e;
+  color: #701e1e;
+  line-height: 10px;
+  position: relative; top:-30px
+
+}
+
+#generate:hover {
+  background-color: #701e1e;
+  color: white;
+}
